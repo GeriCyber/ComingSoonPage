@@ -1,0 +1,218 @@
+html, body
+{
+	background: url(../img/bg2.jpg) no-repeat center center fixed;
+	height: 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media(max-width:768px)
+{
+	#logo img
+	{
+		margin-top: 40px;
+		width: 50%;
+	}
+	#contador .countdown
+	{
+		font-size: 1.4em !important;
+	}
+	#mark-social .fa
+	{
+		margin:10px 0 0 !important;
+	}
+	#suscrip button, input
+	{
+		margin-top: 20px;
+	}
+}
+
+@media(max-width: 978px) and (max-width: 768px) and (max-width: 576px)
+{
+	//Always on bottom
+	.foot
+	{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+p,
+h1, 
+.countdown,
+.fa,
+.btn,
+.form-control
+{
+	color: white;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#logo img
+{
+	width: 30%;
+}
+#info .col-md-12 p
+{
+	font-family: 'Bad Script', cursive !important;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+#info h1
+{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.separador
+{
+	border-top: 1px solid #8c8b8b;
+	width: 15%;
+}
+
+#contador .countdown
+{
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+.sus 
+{
+	color: #FFA188;
+}
+
+#mark-social 
+{
+	margin-top: 15px;
+	text-align: center;
+}
+
+#mark-social .fa
+{
+	margin-right: 15px;
+	position: relative;
+	bottom: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+#mark-social .twitter:hover
+{
+	color: #3DBBEF;
+	bottom: 5px;
+}
+
+#mark-social .facebook:hover
+{
+	color: #2346AC;
+	bottom: 5px;
+}
+
+#mark-social .google:hover
+{
+	color: #ED2B2B;
+	bottom: 5px;
+}
+
+#mark-social .instagram:hover
+{
+	color: #7A14A9;
+	bottom: 5px;
+}
+
+#suscrip 
+{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+#suscrip .form-inline
+{
+	display: block;
+}
+
+#suscrip .btn
+{
+	color: #fff;
+  	text-shadow: none;
+ 	 /* Prevent inheritence from `body` */
+  	background-color: rgba(255, 255, 255, 0.1);
+ 	border: 1px solid #FFF;
+  	border-radius: 10px;
+  	padding: 0.5rem 1rem;
+  	font-size: 15px;
+}
+
+#suscrip .btn:hover
+{
+	background-color: transparent;
+	cursor: pointer;
+	color: #FFA188;
+}
+
+.form-control, .form-control:focus 
+{
+	transition: all .5s ease-in-out;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	border-color: #666666;
+	color: white;
+	font-size: 15px;
+	outline: none;
+  }
+
+.form-control:focus 
+{
+	border: 2px solid #CFCFCF;
+}
+
+//Always on bottom
+.foot
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+/* 
+With CSS3 we can easily adjust an image. But remember this does not change the image. It only displays the adjusted image.
+
+To make an image gray:
+
+img {
+ -webkit-filter: grayscale(100%);
+ -moz-filter: grayscale(100%);
+}
+To give a sepia look:
+
+    img {
+     -webkit-filter: sepia(100%);
+    -moz-filter: sepia(100%);
+}
+To adjust brightness:
+
+ img {
+     -webkit-filter: brightness(50%);
+     -moz-filter: brightness(50%);  
+  }
+To adjust contrast:
+
+ img {
+     -webkit-filter: contrast(200%);
+     -moz-filter: contrast(200%);    
+}
+To Blur an image:
+
+    img {
+     -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+  }
+*/
