@@ -162,7 +162,7 @@ h1,
 	transition: all .5s ease-in-out;
 	background: rgba(0, 0, 0, 0.4);
 	border-radius: 10px;
-	border-color: #666666;
+	border-color: #FFF;
 	color: white;
 	font-size: 15px;
 	outline: none;
@@ -170,7 +170,7 @@ h1,
 
 .form-control:focus 
 {
-	border: 2px solid #CFCFCF;
+	border: 2px solid #FFF;
 }
 
 //Always on bottom
